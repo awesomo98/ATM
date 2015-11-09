@@ -26,4 +26,4 @@ Then, open up the folder and subsequent files
 - How do you check the pin?
 
 
-Ugly Beast: (https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRxqFQoTCImG5_Dqg8kCFVjsYwodO2gA3w&url=http%3A%2F%2Fwww.dgrin.com%2Farchive%2Findex.php%2Ft-196534.html&psig=AFQjCNH3qBckDGJ4oxDQeM0as0evHnI71w&ust=1447175458702278)
+Ugly Beast: (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjmuEImO5epq3TICgrF9OK2H4cJ3uId9vCiMPFVz1v6m0EvYq2cQ)
