@@ -4,20 +4,21 @@
 
 ### Setup
 First, you will need to pull the ATM repository
-
+```sh
     $ git clone https://github.com/awesomo98/ATM.git
+```
 Then, open up the folder and subsequent files
-
+```sh
     $ cd ATM
     $ subl .
-
+```
 ### Questions
 
 - I am still not entirely comfortable with calling .csv files.
 
-
+```ruby
     file = File.open("Accounts.csv", 'r')
-    
+```
     What does the 'r' do, and how can I identify exactly what I want to call inside my file?
     
 - Why do I get so many undefined method errors all the time?
