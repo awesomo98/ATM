@@ -11,32 +11,8 @@ class ATM
 
 		end
 
-	# def check_pin(name, pin)
-	# 	file = File.open("Accounts.csv", 'r')
-	# 	file.each_line do |line|
-	# 	array = line.split(',')
-	# 	puts "Your mom"
-	# 	end
-	# end
-
-	# def authorize
-	# 	Array = []
-	# 	file = File.open("Accounts.csv", 'r')
-	# 	file.each_line do |line|
-	# 		array = line.chop.split(',')
-	# 	end
-	# 	for i in 0..(array.length - 1)
-	# 		if array[i] = name
-				
-	# 		end
-	# end
 
 	def authorize(name, pin, balance, users)
-		# array =
-	# 	file = File.open("Accounts.csv")
-	# 		file.each_line do |line|
-	# 			array = line.chop.split(',')
-	# 		end 
 			for i in 0..(users.length - 1)
 				if users[i] = pin
 					print "Enter 1 (Deposit), 2 (Withdraw), 3 (Balance), or 4 (Quit): "
