@@ -16,7 +16,7 @@ class Main
 
 	ATM = ATM.new
 	ATM.input
-	ATM.authorize(ATM.name, ATM.pin, ATM.balance, users)
+	ATM.authorize(ATM.current_name, ATM.current_pin, users)
 	
 end
 

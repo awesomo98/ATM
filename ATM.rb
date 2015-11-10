@@ -12,9 +12,9 @@ class ATM
 		end
 
 
-	def authorize(name, pin, balance, users)
+	def authorize(name, pin, users)
 			for i in 0..(users.length - 1)
-				if users[i] = pin
+				if users[i].pin = @current_pin
 					print "Enter 1 (Deposit), 2 (Withdraw), 3 (Balance), or 4 (Quit): "
   				command = gets.chomp
   			else
