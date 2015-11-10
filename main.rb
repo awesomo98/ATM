@@ -11,12 +11,12 @@ class Main
 			users.push(User.new(array[0], array[1].to_i, array[2].chop))
 		end
 
+
+		
+
 	ATM = ATM.new
-	
-	
-
-
-		ATM.authorize(users)
+	ATM.input
+	ATM.authorize(ATM.name, ATM.pin, ATM.balance, users)
 	
 end
 

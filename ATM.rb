@@ -31,15 +31,15 @@ class ATM
 	# 		end
 	# end
 
-	def authorize(array)
-	# 	array = Array.new
+	def authorize(name, pin, balance, users)
+		# array =
 	# 	file = File.open("Accounts.csv")
 	# 		file.each_line do |line|
 	# 			array = line.chop.split(',')
 	# 		end 
-			for i in 0..(array.length - 1)
-				if array[i] = name
-					print "D)eposit, W)ithdraw, B)alance, or Q)uit: "
+			for i in 0..(users.length - 1)
+				if users[i] = pin
+					print "Enter 1 (Deposit), 2 (Withdraw), 3 (Balance), or 4 (Quit): "
   				command = gets.chomp
   			else
   				print "That pin does not match"
