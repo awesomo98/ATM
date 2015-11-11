@@ -14,7 +14,7 @@ class ATM
 
 	def authorize(name, pin, users)
 			for i in 0...(users.length)
-				if "#{users[i].pin}" == pin
+				if ("#{users[i].name}" == name) && ("#{users[i].pin}" == pin)
 					prompt
 					return true
   			else
@@ -33,15 +33,24 @@ class ATM
 
 	def prompt
 		print "Enter 1 (Deposit), 2 (Withdraw), 3 (Balance), or 4 (Quit): "
-  				command = gets.chomp
+  				command = gets.chomp.to_i
   	if command == 1
   		make_deposit
+  	elsif command == 2
+  		make_withdrawal
+  	elsif command == 3
+  		show_balance
+  	elsif command == 4
+  		exit
   	end
-
 	end
 
 	def make_deposit
 		puts "How much would you like to deposit? "
 		@deposit = gets.chomp
+	end
+
+	def make_withdrawal
+		
 	end
 end
