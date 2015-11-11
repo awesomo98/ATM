@@ -14,7 +14,6 @@ class ATM
 
 	def authorize(name, pin, users)
 			for i in 0...(users.length)
-				print users[i].pin
 				if "#{users[i].pin}" == pin
 					prompt
 					return true
