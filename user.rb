@@ -11,5 +11,9 @@ class User
 	# 	puts "Your account balance is #{@balance}"
 	# end
 
+	# def match?(name, pin)
+	# 	(users[i].name == name) && (users[i].pin == pin)
+	# end
+
 	
 end

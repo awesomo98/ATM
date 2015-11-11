@@ -53,4 +53,8 @@ class ATM
 	def make_withdrawal
 		
 	end
+
+	def show_balance
+		
+	end
 end
