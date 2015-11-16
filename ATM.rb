@@ -1,5 +1,5 @@
 class ATM
-	attr_accessor :name, :pin, :balance, :current_name, :current_pin, :deposit
+	attr_accessor :name, :pin, :balance, :current_name, :current_pin, :deposit, :current_user
 
 	def initialize
 		@name = name
@@ -8,6 +8,8 @@ class ATM
 		@current_name = current_name
 		@current_pin = current_pin
 		@deposit = deposit
+		@account_total = account_total
+		@current_user = current_user
 		end
 
 
@@ -68,9 +70,11 @@ class ATM
 	def make_withdrawal
 		puts "How much would you like to withdraw? "
 		@withdraw = gets.chomp
+		@account_total = @curren_user.balance.to_f + withdrawal_amount.to_f
+		puts "Your new balance is $#{account_total}"
 	end
 
 	def show_balance
-		puts "You currently have #{balance} in your account"
+		puts "You currently have $#{account_total} in your account"
 	end
 end
